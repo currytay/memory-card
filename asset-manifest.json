@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.b082c7fd.chunk.css",
+    "main.js": "/memory-card/static/js/main.68b49d00.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.68b49d00.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.e60de1de.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.e60de1de.js.map",
+    "static/css/2.57d0a3c9.chunk.css": "/memory-card/static/css/2.57d0a3c9.chunk.css",
+    "static/js/2.601de2d7.chunk.js": "/memory-card/static/js/2.601de2d7.chunk.js",
+    "static/js/2.601de2d7.chunk.js.map": "/memory-card/static/js/2.601de2d7.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/css/2.57d0a3c9.chunk.css.map": "/memory-card/static/css/2.57d0a3c9.chunk.css.map",
+    "static/css/main.b082c7fd.chunk.css.map": "/memory-card/static/css/main.b082c7fd.chunk.css.map",
+    "static/js/2.601de2d7.chunk.js.LICENSE.txt": "/memory-card/static/js/2.601de2d7.chunk.js.LICENSE.txt",
+    "static/media/landing.module.css": "/memory-card/static/media/Bungee-Regular.b99ce5d9.ttf",
+    "static/media/camera.a17c16ff.png": "/memory-card/static/media/camera.a17c16ff.png",
+    "static/media/cardEight.462dc9e0.png": "/memory-card/static/media/cardEight.462dc9e0.png",
+    "static/media/cardEleven.1ca6552f.png": "/memory-card/static/media/cardEleven.1ca6552f.png",
+    "static/media/cardFifteen.5caa0fba.png": "/memory-card/static/media/cardFifteen.5caa0fba.png",
+    "static/media/cardFive.dc123821.png": "/memory-card/static/media/cardFive.dc123821.png",
+    "static/media/cardFour.43fda72c.png": "/memory-card/static/media/cardFour.43fda72c.png",
+    "static/media/cardFourteen.4badf2e3.png": "/memory-card/static/media/cardFourteen.4badf2e3.png",
+    "static/media/cardNine.08f98fe2.png": "/memory-card/static/media/cardNine.08f98fe2.png",
+    "static/media/cardOne.8158544a.png": "/memory-card/static/media/cardOne.8158544a.png",
+    "static/media/cardSeven.8ef7a754.png": "/memory-card/static/media/cardSeven.8ef7a754.png",
+    "static/media/cardSix.faa85e92.png": "/memory-card/static/media/cardSix.faa85e92.png",
+    "static/media/cardTen.73ce2980.png": "/memory-card/static/media/cardTen.73ce2980.png",
+    "static/media/cardThirteen.f7e5f21c.png": "/memory-card/static/media/cardThirteen.f7e5f21c.png",
+    "static/media/cardThree.ea5babc5.png": "/memory-card/static/media/cardThree.ea5babc5.png",
+    "static/media/cardTwelve.266f1635.png": "/memory-card/static/media/cardTwelve.266f1635.png",
+    "static/media/cardTwo.119e14cd.png": "/memory-card/static/media/cardTwo.119e14cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e60de1de.js",
+    "static/css/2.57d0a3c9.chunk.css",
+    "static/js/2.601de2d7.chunk.js",
+    "static/css/main.b082c7fd.chunk.css",
+    "static/js/main.68b49d00.chunk.js"
+  ]
+}
