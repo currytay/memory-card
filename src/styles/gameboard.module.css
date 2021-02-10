@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Bungee";
+  src: url('../assets/Bungee-Regular.ttf') format('ttf');
+}
+
+body {
+  background-color: #000;
+  font-family: "Bungee";
+  margin: 0;
+  padding: 0;
+}
+
+.gameboardcontainer {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  align-items: center;
+  animation: fade-in .8s;
+}
+
+.headingsection {
+  width: 1140px;
+  margin: 20px 0 20px 0;
+  display: flex;
+}
+
+.headingtext {
+  font-size: 22px;
+  margin: 0;
+  width: 395px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.scoresection {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.scoreentry {
+  display: flex;
+  flex-direction: row;
+}
+
+.scoretext {
+  font-size: 28px;  
+  margin: 0 20px 0 0;
+  color: #fff;
+}
+
+.scoredetailstext {
+  font-size: 28px;  
+  width: 33px;
+  margin: 0;
+  color: #FF7A00;
+  text-align: center;
+}
+
+.gamesection {
+  display: grid;
+  max-width: 1140px;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  column-gap: 60px;
+  row-gap: 40px;
+  padding: 40px 40px;
+  border-radius: 20px;
+  border: 2px dashed #2D3748;
+}
+
+/* card styles */
+
+.card {
+  width: 160px;
+  border-radius: 8px;
+  height: 160px;
+  border: 2px solid #4e434f;
+  cursor: pointer;
+  transition: 0.6s;
+  animation: fade-in .8s;
+}
+
+.card:hover {
+  transform: translate(0, -10px);
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}

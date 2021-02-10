@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Bungee";
+  src: url('../assets/Bungee-Regular.ttf') format('ttf');
+}
+
+body {
+  background-color: #000;
+  font-family: "Bungee";
+  margin: 0;
+  padding: 0;
+}
+
+.gameovercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  animation: fade-in .8s;
+}
+
+.headingsection {
+  width: 732px;
+  text-align: center;
+  margin: 240px 0 160px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.headingtext {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+.gamenametext {
+  font-size: 36px;
+  color: #FF7A00;
+}
+
+.playagainbutton {
+  background-color: #fff;
+  font-family: "Bungee";
+  font-size: 22px;
+  color: #000;
+  border: 6px solid #FF7A00;
+  border-radius: 12px;
+  width: 326px;
+  height: 63px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.playagainbutton:focus {
+  outline: none;
+}
+
+.playagainbutton:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}

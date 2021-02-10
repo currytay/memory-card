@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bungee";
+  src: url('../assets/Bungee-Regular.ttf') format('ttf');
+}
+
+body {
+  background-color: #000;
+  font-family: "Bungee";
+  margin: 0;
+  padding: 0;
+}
+
+.landingpagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  animation: float 6s ease-in-out infinite;
+  height: 135px;
+  width: 180px;
+  margin-top: 120px;
+}
+
+.titlesection {
+  width: 732px;
+  text-align: center;
+  margin: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagetitletext {
+  font-size: 36px;
+  margin: 0;
+  color: #fff;
+}
+
+.gamenametext {
+  font-size: 36px;
+  color: #fff;
+}
+
+.rulessection {
+  width: 680px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.rulestext {
+  font-size: 22px;
+  margin: 0;
+  color: #cbd5e0;
+}
+
+.playbutton {
+  background-color: #fff;
+  font-family: "Bungee";
+  font-size: 22px;
+  color: #000;
+  border: 6px solid #FF7A00;
+  width: 326px;
+  height: 63px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.playbutton:focus {
+  outline: none;
+}
+
+.playbutton:hover {
+  transform: scale(1.1);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
